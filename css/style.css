@@ -1,0 +1,361 @@
+*{
+    font-family: "Amatic SC", sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+
+.topcontent{
+    margin: 0;
+    padding: 0;
+    height: 650px;
+    position: relative;
+    background-image: url("../img/pizza.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(50%);
+    
+}
+.nav{
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: #000; 
+    opacity: 0.60;
+    
+}
+.nav .top{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    float: left;
+  }
+.nav:hover{
+    background-color: black;
+    opacity: 1;
+}
+.nav .top:hover{
+    background-color: #e0dede;
+    color: white;
+
+}
+h1{
+    font-size: 100px;
+    color: white;
+    font-weight: 100;
+    display: block;
+    margin: auto;
+    padding-top: 160px;
+    text-align: center;
+}
+.header a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    align-content: center;
+    font-size: 35px;
+    display: block;
+    margin: auto;
+    width: fit-content;
+}
+.header a:hover{
+    background-color: #e0dede;
+    color: #000;
+}
+.bottomleft p{
+    background-color: black;
+    color: white;
+    position: absolute;
+    text-decoration: none;
+    width: fit-content;
+    font-size: 25px;
+    bottom: 16px;
+    left: 16px;
+}
+
+
+/* Menu Section */
+
+.menu{
+    background-color: black;
+}
+.menu .topic{
+    color: white;
+    font-size: 65px;
+    font-weight: 200;
+    text-align: center;
+    padding-top: 60px;
+    margin-bottom: 64px;
+    
+}
+.menu{
+    box-sizing: border-box;
+    align-content: center;
+    max-width: 980px;
+    margin: auto;
+    padding-bottom: 100px;
+}
+.menu .menunav{
+    width: 100%;
+    overflow: auto;
+    display: block;
+    
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 36px;
+    width: 33.33333%;
+    text-align: center; 
+    float: left;
+    
+    
+}
+
+.menu .menudetail{
+    background-color: beige;
+    margin: auto;
+    
+}
+.menucontainer{
+    background-color: black;
+}
+.menutop{
+    padding: 12px 24px;
+
+}
+.menupizza{
+    background-color: #f44336 ;
+}
+.menutop:hover{
+    background-color: #f44336;
+}
+.menutable{
+    border: 1px solid #ccc ;
+    border-color: #616161 ;
+    display: block;
+    
+}
+
+.menudetail{
+    display: block;
+    padding-top: 32px ;
+    padding-bottom: 32px ;
+}
+
+
+.menudetail h2{
+    font-size: 36px;
+    line-height: 1.5;
+    display: block;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+.menudetail .item{
+    color: #fff ;
+    background-color: #616161 ;
+    float: right;
+    border-radius: 4px;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-weight: lighter;
+}
+
+.menudetail p{
+    color: #757575;
+    font-size: 36px;
+    display: block;
+    margin: 30px 20px;
+
+}
+.menudetail .hot{
+    color: #fff ;
+    background-color: #f44336;
+    border-radius: 4px;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    font-weight: lighter;
+}
+.menudetail .new{
+    color: #000;
+    background-color: #9e9e9e;
+    border-radius: 4px;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+/* About Section */
+
+.about{
+
+    margin: auto;
+    display: block;
+    background-color: #ac5d58;
+    color: #fff;
+    padding-top: 64px ;
+    padding-bottom: 64px ;
+
+
+}
+
+.aboutcontent{
+    width: 980px;
+    margin: auto;
+}
+
+.about .abouttopic{
+    text-align: center;
+    margin-bottom: 64px;
+    font-size: 64px;
+    font-weight: lighter;
+}
+.about p{
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.about .chef{
+    width: 150px;
+    float: right;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.about .restimg{
+    width: 100%;
+    margin-bottom: 16px;
+    margin-top: 16px;
+
+}
+
+.about .opentopic{
+    font-weight: bolder;
+    font-size: 36px;
+    margin-bottom: 35px;
+}
+.about .openat{
+    font-size: 24px;
+    display: block;
+    padding-bottom: 160px;
+    
+}
+
+.about .timecol2{
+    float: left;
+    width: 49.99999%;
+}
+
+
+/* Map & Contact */
+
+#map{
+    width: 100%;
+    height: auto;
+}
+.contact{
+    margin: auto;
+    display: block;
+    background-color: #607d8b;
+    color: #fff;
+    padding-top: 64px ;
+    padding-bottom: 64px ;
+    filter: grayscale(50%);
+
+}
+.contactdata{
+    width: 980px;
+    margin: auto;
+
+}
+
+.contact h2{
+    text-align: center;
+    margin-bottom: 64px;
+    font-size: 64px;
+    font-weight: lighter;
+
+}
+
+
+.contact p{
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+.contact .fly{
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+}
+.contact .pform{
+    font-size: 36px;
+}
+
+.contact .form{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border: 1px solid #ccc;
+    display: block;
+    width: 100%;
+    font-size: 24px;
+
+}
+.contact input{
+    font-size: larger;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+.contact .btn{
+    width: 100%;
+    display: block;
+    color: #000;
+    background-color: #f1f1f1;
+    font-size: 24px;
+    border: none;
+    text-decoration: none;
+    overflow: hidden;
+    padding: 12px 20px;
+    
+}
+
+.btn:hover{
+    background-color: #c5c2c2;
+}
+
+.footer{
+    color: #fff;
+    background-color: #000;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    text-align: center;
+    font-size: 36px;
+}
+.footer a{
+    color: #fff;
+}
+.footer a:hover{
+    color: green;
+}
+
